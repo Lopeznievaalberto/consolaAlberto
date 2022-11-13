@@ -1,0 +1,297 @@
+body {
+    background-color: rgba(39, 156, 156, 0.308);
+
+}
+
+#todaconsola {
+    /*poner el cuerpo de la consola en el centro de la pagina?*/
+    display: flex;
+    flex-direction: row;
+    /* no se por que pero solo funciona con esto puesto*/
+    justify-content: center;
+    align-items: center;
+    /* no se usar position relative y absolute*/
+}
+
+#cuerpoconsola {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    /* por que no se usan porcentajes para todas las medidas?, no sería mas responsive con porcentajes?*/
+    height: 450px;
+    background: rgb(247, 243, 5);
+    border-radius: 20px 20px 50px;
+    /* no furula*/
+    border: 4px solid black;
+    box-shadow: 20px 20px 0px 0px rgba(19, 18, 18, 0.548);
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+
+
+
+}
+
+#marcopantalla {
+
+    width: 250px;
+    height: 200px;
+    background: rgb(48, 46, 46);
+    position: relative;
+    top: 20px;
+    bottom: 200px;
+    border: 4px solid black;
+    border-radius: 20px 20px 40px 40px;
+    /* background-image: radial-gradient(rgba(255, 255, 255, 0.3) 20%, white 20% );*/
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+#pantalla {
+    width: 190px;
+    height: 150px;
+    position: absolute;
+    top: 11px;
+    bottom: 20px;
+    right: 25px;
+    background-color: hsl(111, 33%, 69%);
+    border: 4px solid black;
+    box-shadow: inset 4px 4px rgba(134, 117, 117, 0.548);
+    overflow: hidden;
+}
+
+
+#battery {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(230, 18, 18);
+    /* border: 0.8px solid black;*/
+    position: absolute;
+    top: 92px;
+    left: 12px;
+
+}
+
+#gameboycolor {
+
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+
+#botonesab {
+    width: 110px;
+    height: 50px;
+    border: 3px solid black;
+    background-color: rgba(65, 59, 59);
+    border-radius: 100px;
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 280px;
+    left: 170px;
+
+}
+
+#a {
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(48, 46, 46);
+    background-color: rgba(230, 18, 18);
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: rotate(20deg);
+    top: 5px;
+    left: 63px;
+
+
+
+
+}
+
+#b {
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(48, 46, 46);
+    background-color: rgba(230, 18, 18);
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: rotate(20deg);
+    top: 5px;
+    left: 8px;
+}
+
+
+
+
+
+
+#flechas {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    border-radius: 50%;
+    background-color: rgba(65, 59, 59);
+    position: absolute;
+    top: 250px;
+    left: 16px;
+
+}
+
+#up {
+    width: 30px;
+    height: 48px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    top: 4px;
+    left: 34px;
+}
+
+#bottom {
+    width: 30px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top: 51px;
+    left: 34px;
+
+}
+
+#left {
+    width: 34px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top: 34px;
+    left: 3px;
+}
+
+#right {
+    width: 34px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top: 34px;
+    left: 63px;
+}
+
+
+
+#botonesabajo {
+    display: flex;
+    width: 120px;
+    height: 50px;
+
+    background-color: rgb(247, 243, 5);
+
+    position: absolute;
+
+    top: 390px;
+    left: 102px;
+
+
+
+}
+
+#select {
+    color: rgb(48, 46, 46);
+    background-color: rgba(230, 18, 18);
+    border: 3px solid black;
+    border-radius: 10px;
+    text-shadow: 10px 10px rgba(134, 117, 117, 0.548);
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+}
+
+#select1 {
+
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 12px;
+
+}
+
+#start {
+    color: rgb(48, 46, 46);
+    background-color: rgba(230, 18, 18);
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    left: 55px;
+}
+
+#start1 {
+
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 60px;
+}
+
+p {
+    background-color: rgb(247, 243, 5);
+    color: rgb(255, 253, 130);
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: -0.3px -0.7px rgb(71, 67, 67);
+}
+
+
+
+/*box-shadow: inset 4px 4px rgba(134, 117, 117, 0.548);*/
+
+#altavoz{
+
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 355px;
+    left: 218px;
+    transform: rotate(-15deg);
+    border-radius: 20px;
+    background-image: radial-gradient(rgb(37, 37, 37) 35%, transparent 50%);
+    background-repeat: repeat;
+    
+    background-size: 7px 7px;
+    background-position: 0 0; /*esta linea ha sido la clave*/
+    
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
