@@ -67,10 +67,12 @@ body {
     top: 170px;
     left: 60px;
 }
+
 #gameboycolor img {
     position: absolute;
-z-index: 300;
- }
+    z-index: 300;
+}
+
 #botonesab {
     width: 110px;
     height: 50px;
@@ -220,10 +222,11 @@ p {
     font-weight: bold;
     font-size: 12px;
     text-shadow: -0.3px -0.7px rgb(71, 67, 67);
-} 
+}
+
 /*box-shadow: inset 4px 4px rgba(134, 117, 117, 0.548);*/
 
-#altavoz{
+#altavoz {
     width: 70px;
     height: 70px;
     position: absolute;
@@ -234,20 +237,6 @@ p {
     background-image: radial-gradient(rgb(37, 37, 37) 35%, transparent 50%);
     background-repeat: repeat;
     background-size: 7px 7px;
-    background-position: 0 0; /*esta linea ha sido la clave*/
+    background-position: 0 0;
+    /*esta linea ha sido la clave*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
