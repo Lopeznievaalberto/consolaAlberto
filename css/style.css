@@ -71,6 +71,8 @@ body {
 #gameboycolor img {
     position: absolute;
     z-index: 300;
+    width: 130px ;
+    height:25px;
 }
 
 #botonesab {
